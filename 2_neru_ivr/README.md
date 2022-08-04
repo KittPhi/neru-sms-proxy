@@ -2,9 +2,8 @@
 
 ## Neru IVR
 
-1. Run `neru deploy`
-
-2. Call LVN
+Run neru debu
+Call LVN
 
 ## History
 
