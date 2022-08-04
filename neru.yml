@@ -1,0 +1,16 @@
+project:
+  name: neru-sms-proxy
+instance:
+  name: neru-sms-proxy
+  runtime: nodejs16
+  region: aws.use1
+  application-id: 2c8e9c4e-9e4a-4107-840c-8537eff23f00
+  capabilities: [rtc, messaging]
+  entrypoint: [node, index.js]
+  configurations:
+    contact:
+      number: '19899450176'
+      type: 'phone'
+debug:
+  name: neru-sms-proxy
+  entrypoint: [nodemon, --inspect, index.js]
